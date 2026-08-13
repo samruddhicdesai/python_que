@@ -1,0 +1,5 @@
+name = input("enter name : ")
+age = int(input("Enter Age: "))
+template = ("My name is {} and I am {} years old.")
+s1 = template.format(name , age)
+print(s1)
