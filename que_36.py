@@ -1,0 +1,7 @@
+coordinates = (10,20)
+changes = list(coordinates)
+changes.remove(10)
+changes.insert(0,50)
+print(changes)
+change = tuple(changes)
+print(change)
