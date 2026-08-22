@@ -1,9 +1,7 @@
-name = input("Enter Name:")
-Age = int(input("Enter Age: "))
-College_name = input("Enter College Name: ")
+numbers = {"name1":"John","number1":998234567,
+           "name2":"Sam", "number2":983923820,
+           "name3":"Tom","number3": 993948900}
 
-print("Name : ",name)
-print("Age : ",Age)
-print("College Name : ",College_name)
-
-print(f"My name is {name} , I am {Age} years old and I study in {College_name}")
+print(numbers.keys())
+print(numbers.values())
+print(numbers.items())
